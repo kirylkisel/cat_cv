@@ -53,7 +53,7 @@ def pet_detector(frame):
     cv2.circle(frame, (x, y), 5, (75, 13, 180), -1)
     print('efore')
     if int(classes[0][0]) != 1:
-        print('hui')
+        
 
         x = int(((boxes[0][0][1]+boxes[0][0][3])/2)*IM_WIDTH)
         y = int(((boxes[0][0][0]+boxes[0][0][2])/2)*IM_HEIGHT)
